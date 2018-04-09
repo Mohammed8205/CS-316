@@ -1,0 +1,14 @@
+0 <fun def>
+ 1 <Header>
+  2 <type> int
+  2 <fun name> fact
+  2 <Parameter List> 
+   3 <parameter> int n
+ 1 <exp> 
+  2 <Fun Exp> 
+   3 <fun op> 
+   3 =
+   3 <Exp> 
+    4 n
+   3 <Exp> 0
+   3 <fun list> 

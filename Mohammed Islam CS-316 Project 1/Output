@@ -1,0 +1,20 @@
+(   : LParen
+*   : Times
++. : Lexical Error, invalid token
+-.) : Lexical Error, invalid token
+-87.54e) : Lexical Error, invalid token
+)   : RParen
+87.54e-9   : FloatE
+.5E+) : Lexical Error, invalid token
+(   : LParen
+*   : Times
+-7.E-  : Lexical Error, invalid token
+.3   : Float
+.4e-4   : FloatE
+.e- : Lexical Error, invalid token
+4   : Int
+-87.54e-9   : FloatE
++.5E+6   : FloatE
+*   : Times
+-7.   : Float
++87.e23   : FloatE
